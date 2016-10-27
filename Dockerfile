@@ -49,8 +49,5 @@ RUN set -x \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& [ "$JAVA_HOME" = "$(docker-java-home)" ]
 
-# see CA_CERTIFICATES_JAVA_VERSION notes above
-#RUN /var/lib/dpkg/info/ca-certificates-java.postinst configure
-
 # If you're reading this and have any feedback on how this image could be
 #   improved, please open an issue or a pull request so we can discuss it!
