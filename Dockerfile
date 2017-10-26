@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM buildpack-deps:jessie-curl
+FROM buildpack-deps:stretch-curl
 
 # A few problems with compiling Java from source:
 #  1. Oracle.  Licensing prevents us from redistributing the official JDK.
